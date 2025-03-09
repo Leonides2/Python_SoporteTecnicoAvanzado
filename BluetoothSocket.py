@@ -103,6 +103,3 @@ while True:
                 ##sock.send("BTN_THUMBR")
                 print("Enviado: BTN_THUMBR")
 
-            if event.value == 1:
-                print(event.code)
-        time.sleep(0.08)

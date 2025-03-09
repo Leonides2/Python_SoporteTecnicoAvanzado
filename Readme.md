@@ -18,7 +18,7 @@ Para ejecutar el script necesitas las siguientes librerías de python:
 Comando para instalar:
 
 ``` bash
-sudo pip install [libreria]
+python -m pip install [libreria]
 ```
 
 Todas las instrucciones se encuentran explicadas con bash, debido a que
@@ -47,3 +47,6 @@ Ahora deberías de poder instalar las dependecias sin ningún problema.
 
 Este repositorio incluye una versión del script `get-pip.py`, sin embargo puede que no sea la más
 actualizada al momento de lectura de este README
+
+Si sigue sin funcionar, puedes utilizar el gestor de paquetes de tu distro para instalar
+pip
